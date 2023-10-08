@@ -1,0 +1,40 @@
+.features-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #2B1E16;
+    
+}
+
+.features-header{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.feature-img{
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.features-desc{
+    width: 300px;
+    color: #e0cbc1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .features-container {
+      flex-direction: column;
+    }
+  }
